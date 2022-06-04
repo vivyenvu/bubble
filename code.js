@@ -18,4 +18,4 @@ for (var i = 0; i < scores.length; i++) {
 }
 console.log("Bubbles tests: " + scores.length);
 console.log("Highest bubble scores: " + highScore);
-console.log("Sollutions with highest scores: " + bestSolutions);
+console.log("Solutions with highest scores: " + bestSolutions);
