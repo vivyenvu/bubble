@@ -1,4 +1,4 @@
-var scores = [79, 60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69, 34, 55, 51, 52, 44, 51, 69, 64, "turkey", 66, 55, 52, 61, 46, 31, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44, 75, 79];
+var scores = [79, 60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69, 34, 55, 51, 52, 44, 51, 69, 64, 66, 55, 52, 61, 46, 31, 57, 52, 44, 18, 41, 53, 55, "hello world", 61, 51, 44, 75, 79];
 var output;
 var highScore = 0;
 var bestSolutions = [];
@@ -11,9 +11,9 @@ for (var i = 0; i < scores.length; i++) {
         highScore = scores[i];
     }
 
-    /*if (type of(scores[i]) == "string"){
+    if (typeof(scores[i]) == "string"){
         surprise = scores[i];
-    }*/
+    }
 }
 
 for (var i = 0; i < scores.length; i++) {
@@ -24,5 +24,4 @@ for (var i = 0; i < scores.length; i++) {
 console.log("Bubbles tests: " + scores.length);
 console.log("Highest bubble scores: " + highScore);
 console.log("Solutions with highest scores: " + bestSolutions);
-console.log(typeof "turkey");
-//console.log("Surprise!: " + surprise);
+console.log("Surprise!: " + surprise);
