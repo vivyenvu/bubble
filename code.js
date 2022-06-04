@@ -11,9 +11,9 @@ for (var i = 0; i < scores.length; i++) {
         highScore = scores[i];
     }
 
-    if (type of(scores[i]) == "string"){
+    /*if (type of(scores[i]) == "string"){
         surprise = scores[i];
-    }
+    }*/
 }
 
 for (var i = 0; i < scores.length; i++) {
@@ -24,4 +24,5 @@ for (var i = 0; i < scores.length; i++) {
 console.log("Bubbles tests: " + scores.length);
 console.log("Highest bubble scores: " + highScore);
 console.log("Solutions with highest scores: " + bestSolutions);
-console.log("Surprise!: " + surprise);
+console.log(typeof "turkey");
+//console.log("Surprise!: " + surprise);
