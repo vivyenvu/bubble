@@ -11,7 +11,7 @@ for (var i = 0; i < scores.length; i++) {
         highScore = scores[i];
     }
 
-    if (scores[i] == "turkey"){
+    if (type of(scores[i]) == "string"){
         surprise = scores[i];
     }
 }
